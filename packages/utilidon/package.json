@@ -1,0 +1,15 @@
+{
+  "name": "@terrible-lizard/utilidon",
+  "version": "1.0.0",
+  "description": "Utility library.",
+  "main": "index.js",
+  "author": "Momappoki LLC.",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149"
+  }
+}

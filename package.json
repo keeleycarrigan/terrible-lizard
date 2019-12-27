@@ -1,0 +1,38 @@
+{
+    "name": "terrible-lizard",
+    "version": "0.1.0",
+    "description": "UI Library by Momappoki",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "bootstrap": "lerna bootstrap",
+        "build": "tsc -b packages"
+    },
+    "author": "Momappoki LLC",
+    "contributors": [
+        {
+            "name": "Keeley Carrigan",
+            "email": "keeley@mommappoki.com"
+        }
+    ],
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "demos/*"
+    ],
+    "devDependencies": {
+        "@typescript-eslint/parser": "^2.13.0",
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.17.0",
+        "eslint-plugin-standard": "^4.0.1",
+        "lerna": "^3.19.0"
+    },
+    "dependencies": {
+        "typescript": "^3.7.4"
+    }
+}

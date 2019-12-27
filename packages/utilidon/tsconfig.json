@@ -1,0 +1,11 @@
+{
+    "include": ["src"],
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        // to override config from tsconfig.base.json
+        "outDir": "dist",
+        "rootDir": "src",
+        // for references
+        "baseUrl": "src"
+    }
+}

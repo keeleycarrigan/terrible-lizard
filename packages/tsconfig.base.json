@@ -1,0 +1,39 @@
+{
+    // "include": ["packages/*"],
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        // Import non-ES modules as default imports.
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        // use typescript to transpile jsx to js
+        "jsx": "react",
+        "lib": [
+            "es2015",
+            "dom.iterable",
+            "es2016.array.include",
+            "es2017.object",
+            "dom"
+        ],
+        "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "@terriblelizard/*": ["*"]
+        },
+        "removeComments": true,
+        "sourceMap": true,
+        // Enable strictest settings like strictNullChecks & noImplicitAny.
+        "strict": true,
+        "target": "es5",
+    }
+}
