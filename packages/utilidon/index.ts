@@ -6,9 +6,9 @@ export {
   minDigits,
   numberWithCommas,
   roundNumber,
-} from 'Numbers';
+} from './Numbers';
 
-export { default as LocalData } from 'LocalData';
+export { default as LocalData } from './LocalData';
 
 export {
   characterLimitMask,
@@ -18,7 +18,7 @@ export {
   phoneMask2,
   ssnMask,
   zipcodeMask,
-} from 'DataMask';
+} from './DataMask';
 
 export {
   validCompare,
@@ -31,11 +31,11 @@ export {
   validNumber,
   validPhone,
   validZipcode,
-} from 'Validation';
+} from './Validation';
 
 export {
   convertKeyCode,
   debugLog,
   deepRemoveEmpty,
   getQueryParams,
-} from 'General';
+} from './General';

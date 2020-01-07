@@ -1,5 +1,5 @@
 {
-    "include": ["index.ts", "types.ts", "Listener", "LocalData", "Numbers", "General", "DataMask", "Validation", "GlobalListeners"],
+    "include": ["styles.ts", "index.tsx", "components"],
     "extends": "../tsconfig.base.json",
     "compilerOptions": {
         // to override config from tsconfig.base.json
@@ -7,5 +7,10 @@
         "rootDir": ".",
         // for references
         "baseUrl": "."
-    }
+    },
+    // references required for monorepo to work
+    "references": [
+        { "path": "../utilidon" },
+        { "path": "../rangodon" }
+    ]
 }
